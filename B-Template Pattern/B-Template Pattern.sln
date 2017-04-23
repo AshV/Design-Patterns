@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B-Template Pattern", "B-Template Pattern\B-Template Pattern.csproj", "{72FFB9E4-6F6D-4D31-B2E8-BDF87078DAE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B Solution 1", "B Solution 1\B Solution 1.csproj", "{53DFB379-AA24-485A-AB34-0270ACF6F5AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{72FFB9E4-6F6D-4D31-B2E8-BDF87078DAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72FFB9E4-6F6D-4D31-B2E8-BDF87078DAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72FFB9E4-6F6D-4D31-B2E8-BDF87078DAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53DFB379-AA24-485A-AB34-0270ACF6F5AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DFB379-AA24-485A-AB34-0270ACF6F5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DFB379-AA24-485A-AB34-0270ACF6F5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DFB379-AA24-485A-AB34-0270ACF6F5AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
