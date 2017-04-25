@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>C_Solution_2</RootNamespace>
-    <AssemblyName>C_Solution_2</AssemblyName>
+    <AssemblyName>C Solution 2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GumballMachine.cs" />
+    <Compile Include="GumballsCoin.cs" />
+    <Compile Include="GumballsNoCoin.cs" />
+    <Compile Include="IState.cs" />
+    <Compile Include="NoGumballsCoin.cs" />
+    <Compile Include="NoGumballsNoCoin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
