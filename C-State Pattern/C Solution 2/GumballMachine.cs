@@ -13,7 +13,7 @@ namespace C_Solution_2
         private GumballsNoCoin g_nc;
         private GumballsCoin g_c;
 
-        private IState getState(string id)
+        public IState getState(string id)
         {
             if (id.Equals("ng_nc"))
                 return ng_nc;
@@ -44,6 +44,47 @@ namespace C_Solution_2
             state = g_nc;
         }
 
+        public void addGumballs(int count)
+        {
+            state.addGumballs(count);
+        }
 
+        public void insertCoin()
+        {
+            state.insertCoin();
+        }
+
+        public void turnHandle()
+        {
+            state.turnHandle();
+        }
+
+
+        public override String ToString()
+        {
+            return "GumballMachine [ngumballs=" + ngumballs + ", money=" + money
+                    + ", state=" + state + "]";
+        }
+
+        public void addCount(int count)
+        {
+            ngumballs += count;
+        }
+
+        public void setState(IState state)
+        {
+            this.state = state;
+        }
+
+        public void updateState()
+        {
+            ngumballs -= 1;
+            money += 1;
+        }
+
+        public int getNumGumballs()
+        {
+            return ngumballs;
+        }
     }
 }

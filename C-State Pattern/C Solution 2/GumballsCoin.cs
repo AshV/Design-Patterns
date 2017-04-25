@@ -15,17 +15,22 @@ namespace C_Solution_2
         }
         public void addGumballs(int count)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Added gumballs");
+            gbm.addCount(count);
         }
 
         public void insertCoin()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Coin already inserted");
         }
 
         public void turnHandle()
         {
-            throw new NotImplementedException();
+            gbm.updateState();
+            if (gbm.getNumGumballs() == 0)
+                gbm.setState(gbm.getState("ng_nc"));
+            else
+                gbm.setState(gbm.getState("g_nc"));
         }
     }
 }

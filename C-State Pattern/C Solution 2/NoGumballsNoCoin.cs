@@ -13,17 +13,19 @@ namespace C_Solution_2
         public void addGumballs(int count)
         {
             Console.WriteLine("Added Gumballs");
-           
+            gbm.addCount(count);
+            gbm.setState(gbm.getState("g_nc"));
         }
 
         public void insertCoin()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Coin is Inserted");
+            gbm.setState(gbm.getState("ng_c"));
         }
 
         public void turnHandle()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Insert Coin");
         }
     }
 }
