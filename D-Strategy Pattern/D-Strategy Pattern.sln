@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-Strategy Pattern", "D-Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D Solution 1", "D Solution 1\D Solution 1.csproj", "{3C1B1427-3F61-41F4-8D0D-D1960BF9757C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D Solution 2", "D Solution 2\D Solution 2.csproj", "{663AB2EA-0D8F-42D3-A89C-648B35319F88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3C1B1427-3F61-41F4-8D0D-D1960BF9757C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C1B1427-3F61-41F4-8D0D-D1960BF9757C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C1B1427-3F61-41F4-8D0D-D1960BF9757C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663AB2EA-0D8F-42D3-A89C-648B35319F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663AB2EA-0D8F-42D3-A89C-648B35319F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663AB2EA-0D8F-42D3-A89C-648B35319F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663AB2EA-0D8F-42D3-A89C-648B35319F88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
