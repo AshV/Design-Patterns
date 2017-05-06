@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H-Command Pattern", "H-Command Pattern\H-Command Pattern.csproj", "{DE874EF2-9F6A-4941-808D-A0ED51B9438A}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H Solution 3", "H Solution 3\H Solution 3.csproj", "{5094DC2C-EA88-49EE-92BB-86887494C2EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H Solution 4", "H Solution 4\H Solution 4.csproj", "{0338A789-14C7-476E-9CAE-2ACF59FDF974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H Solution 5", "H Solution 5\H Solution 5.csproj", "{54832560-E8D9-419D-93B8-3A046C503752}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0338A789-14C7-476E-9CAE-2ACF59FDF974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0338A789-14C7-476E-9CAE-2ACF59FDF974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0338A789-14C7-476E-9CAE-2ACF59FDF974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54832560-E8D9-419D-93B8-3A046C503752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54832560-E8D9-419D-93B8-3A046C503752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54832560-E8D9-419D-93B8-3A046C503752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54832560-E8D9-419D-93B8-3A046C503752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
