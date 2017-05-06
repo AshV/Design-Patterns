@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I-Iterator Pattern", "I-Ite
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I Solution 1", "I Solution 1\I Solution 1.csproj", "{06C24C8A-AD4C-4681-9E88-0CB058A70FE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I Solution 2", "I Solution 2\I Solution 2.csproj", "{C4C40FB6-F7D4-4453-8300-197C552E5B4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{06C24C8A-AD4C-4681-9E88-0CB058A70FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C24C8A-AD4C-4681-9E88-0CB058A70FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06C24C8A-AD4C-4681-9E88-0CB058A70FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C40FB6-F7D4-4453-8300-197C552E5B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C40FB6-F7D4-4453-8300-197C552E5B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C40FB6-F7D4-4453-8300-197C552E5B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C40FB6-F7D4-4453-8300-197C552E5B4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
