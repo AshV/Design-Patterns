@@ -16,6 +16,9 @@
             // throw new NotImplementedException();
         }
 
-        
+        public bool undoable()
+        {
+            return false;
+        }
     }
 }
