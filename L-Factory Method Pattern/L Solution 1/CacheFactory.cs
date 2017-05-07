@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace L_Solution_1
+﻿namespace L_Solution_1
 {
-    class CacheFactory
+    public class CacheFactory
     {
+        public static ICache getCache(int n)
+        {
+            if (n < 200)
+                return new DefaultCache(n, "pol");
+            if (n < 1000)
+                return new JCache(n, "fifo", true);
+            return new TrieCache(n, "lfu", "tst");
+        }
     }
 }

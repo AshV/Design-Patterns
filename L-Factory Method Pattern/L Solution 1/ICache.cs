@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace L_Solution_1
+﻿namespace L_Solution_1
 {
-    class ICache
+    public interface ICache
     {
+        void put(string key, int value);
+        int get(string key);
     }
 }

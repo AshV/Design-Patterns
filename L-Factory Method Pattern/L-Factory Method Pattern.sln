@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L-Factory Method Pattern", "L-Factory Method Pattern\L-Factory Method Pattern.csproj", "{EBC5644D-ECC5-4C3E-8BCF-8C30CB41771A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L Solution 1", "L Solution 1\L Solution 1.csproj", "{37822B99-423C-4917-9413-3D9B18EC42EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EBC5644D-ECC5-4C3E-8BCF-8C30CB41771A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBC5644D-ECC5-4C3E-8BCF-8C30CB41771A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBC5644D-ECC5-4C3E-8BCF-8C30CB41771A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37822B99-423C-4917-9413-3D9B18EC42EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37822B99-423C-4917-9413-3D9B18EC42EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37822B99-423C-4917-9413-3D9B18EC42EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37822B99-423C-4917-9413-3D9B18EC42EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

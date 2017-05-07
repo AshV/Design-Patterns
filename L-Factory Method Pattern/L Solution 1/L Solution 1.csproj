@@ -7,7 +7,7 @@
     <ProjectGuid>{37822B99-423C-4917-9413-3D9B18EC42EE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>L_Solution_1</RootNamespace>
-    <AssemblyName>L_Solution_1</AssemblyName>
+    <AssemblyName>L Solution 1</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CacheFactory.cs" />
+    <Compile Include="DefaultCache.cs" />
+    <Compile Include="ICache.cs" />
+    <Compile Include="JCache.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrieCache.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
