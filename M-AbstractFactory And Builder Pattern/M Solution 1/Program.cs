@@ -18,3 +18,5 @@
         }
     }
 }
+
+//Problem: any level of part can be assigned to any car object
