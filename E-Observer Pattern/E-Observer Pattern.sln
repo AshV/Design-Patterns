@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Observer Pattern", "E-Observer Pattern\E-Observer Pattern.csproj", "{C53E4A56-0216-419E-B86E-DC4CF2161F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E Solution 1", "E Solution 1\E Solution 1.csproj", "{CC009973-AA19-4D33-A921-9FEF38401557}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C53E4A56-0216-419E-B86E-DC4CF2161F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C53E4A56-0216-419E-B86E-DC4CF2161F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C53E4A56-0216-419E-B86E-DC4CF2161F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC009973-AA19-4D33-A921-9FEF38401557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC009973-AA19-4D33-A921-9FEF38401557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC009973-AA19-4D33-A921-9FEF38401557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC009973-AA19-4D33-A921-9FEF38401557}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
