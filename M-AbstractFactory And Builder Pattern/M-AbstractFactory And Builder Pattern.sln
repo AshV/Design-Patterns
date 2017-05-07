@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M-AbstractFactory And Builder Pattern", "M-AbstractFactory And Builder Pattern\M-AbstractFactory And Builder Pattern.csproj", "{282F15AC-42F2-4868-9082-B068535205D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M Solution 1", "M Solution 1\M Solution 1.csproj", "{F782484A-9E1C-4793-90ED-497EA2F3FD9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{282F15AC-42F2-4868-9082-B068535205D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{282F15AC-42F2-4868-9082-B068535205D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{282F15AC-42F2-4868-9082-B068535205D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F782484A-9E1C-4793-90ED-497EA2F3FD9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F782484A-9E1C-4793-90ED-497EA2F3FD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F782484A-9E1C-4793-90ED-497EA2F3FD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F782484A-9E1C-4793-90ED-497EA2F3FD9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
