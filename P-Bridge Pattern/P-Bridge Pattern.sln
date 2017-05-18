@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P-Bridge Pattern", "P-Bridge Pattern\P-Bridge Pattern.csproj", "{186A45AD-44FD-490F-9659-0FE57F959CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P Solution 1", "P Solution 1\P Solution 1.csproj", "{A1A14427-6236-4BF1-97E2-149BAF0E7F0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{186A45AD-44FD-490F-9659-0FE57F959CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186A45AD-44FD-490F-9659-0FE57F959CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186A45AD-44FD-490F-9659-0FE57F959CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186A45AD-44FD-490F-9659-0FE57F959CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A14427-6236-4BF1-97E2-149BAF0E7F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A14427-6236-4BF1-97E2-149BAF0E7F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A14427-6236-4BF1-97E2-149BAF0E7F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A14427-6236-4BF1-97E2-149BAF0E7F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
