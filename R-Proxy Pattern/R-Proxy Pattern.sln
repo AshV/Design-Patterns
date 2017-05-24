@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R-Proxy Pattern", "R-Proxy 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R Solution 1", "R Solution 1\R Solution 1.csproj", "{ED952219-A04F-4408-8986-0FF857C24253}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R Solution 2", "R Solution 2\R Solution 2.csproj", "{FF895AA3-B130-4D8E-BC8E-F0140C4DF6C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ED952219-A04F-4408-8986-0FF857C24253}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED952219-A04F-4408-8986-0FF857C24253}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED952219-A04F-4408-8986-0FF857C24253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF895AA3-B130-4D8E-BC8E-F0140C4DF6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF895AA3-B130-4D8E-BC8E-F0140C4DF6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF895AA3-B130-4D8E-BC8E-F0140C4DF6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF895AA3-B130-4D8E-BC8E-F0140C4DF6C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
