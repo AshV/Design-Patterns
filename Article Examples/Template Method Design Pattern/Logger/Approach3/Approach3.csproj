@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{544AD7E1-1AA9-4C5C-8056-ACF67F44F14B}</ProjectGuid>
+    <ProjectGuid>{8A228B9F-ABD5-408B-8055-F80E3CBEC5B4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Approach2</RootNamespace>
-    <AssemblyName>Approach2</AssemblyName>
+    <RootNamespace>Approach3</RootNamespace>
+    <AssemblyName>Approach3</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractLogger.cs" />
     <Compile Include="DatabaseLogger.cs" />
     <Compile Include="EmailLogger.cs" />
     <Compile Include="FileLogger.cs" />
-    <Compile Include="AbstractLogger.cs" />
     <Compile Include="MainClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
