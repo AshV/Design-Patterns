@@ -4,8 +4,7 @@ public abstract class AbstractLogger
 {
     public bool ConsoleLogging { get; set; }
 
-    protected string SerializeMessage(object message)
-    {
+    protected string SerializeMessage(object message) {
         WriteLine("Serializing message");
         return message.ToString();
     }
@@ -16,19 +15,16 @@ public abstract class AbstractLogger
 
     protected abstract void CloseDataStoreOpreation();
 
-    protected virtual void LogToConsole(string messageToLog)
-    {
+    protected virtual void LogToConsole(string messageToLog) {
         WriteLine("Writing in Console : " + messageToLog);
     }
 
-    public void Log(object message)
-    {
+    public void Log(object message) {
         string messageToLog = SerializeMessage(message);
         OpenDataStoreOperation();
         LogMessage(messageToLog);
         CloseDataStoreOpreation();
-        if (ConsoleLogging)
-        {
+        if (ConsoleLogging) {
             LogToConsole(messageToLog);
         }
     }

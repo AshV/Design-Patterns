@@ -2,8 +2,7 @@
 
 public abstract class AbstractLogger
 {
-    protected string SerializeMessage(object message)
-    {
+    protected string SerializeMessage(object message) {
         WriteLine("Serializing message");
         return message.ToString();
     }

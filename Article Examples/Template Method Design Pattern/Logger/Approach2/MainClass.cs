@@ -2,8 +2,7 @@
 
 class MainClass
 {
-    static void Main(string[] args)
-    {
+    static void Main(string[] args) {
         FileLogger fileLogger = new FileLogger();
         fileLogger.Log("Message to Log in File.");
         WriteLine();

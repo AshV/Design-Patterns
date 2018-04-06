@@ -2,8 +2,7 @@
 
 public abstract class AbstractLogger
 {
-    protected string SerializeMessage(object message)
-    {
+    protected string SerializeMessage(object message) {
         WriteLine("Serializing message");
         return message.ToString();
     }
@@ -14,8 +13,7 @@ public abstract class AbstractLogger
 
     protected abstract void CloseDataStoreOpreation();
 
-    public void Log(object message)
-    {
+    public void Log(object message) {
         string messageToLog = SerializeMessage(message);
         OpenDataStoreOperation();
         LogMessage(messageToLog);
