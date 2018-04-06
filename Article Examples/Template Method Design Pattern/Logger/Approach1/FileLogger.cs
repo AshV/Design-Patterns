@@ -10,15 +10,15 @@ public class FileLogger
         CloseFile();
     }
 
-    private void OpenFile()
-    {
-        WriteLine("Opening File.");
-    }
-
     private string SerializeMessage(object message)
     {
         WriteLine("Serializing message");
         return message.ToString();
+    }
+
+    private void OpenFile()
+    {
+        WriteLine("Opening File.");
     }
 
     private void WriteLogMessage(string message)
