@@ -2,21 +2,32 @@
 
 public class FileLogger
 {
-    public void Log(string message) {
+    public void Log(object message)
+    {
+        string messageToLog = SerializeMessage(message);
         OpenFile();
-        WriteLogMessage(message);
+        WriteLogMessage(messageToLog);
         CloseFile();
     }
 
-    private void OpenFile() {
+    private void OpenFile()
+    {
         WriteLine("Opening File.");
     }
 
-    private void WriteLogMessage(string message) {
+    private string SerializeMessage(object message)
+    {
+        WriteLine("Serializing message");
+        return message.ToString();
+    }
+
+    private void WriteLogMessage(string message)
+    {
         WriteLine("Appending Log message to file : " + message);
     }
 
-    private void CloseFile() {
+    private void CloseFile()
+    {
         WriteLine("Close File.");
     }
 }

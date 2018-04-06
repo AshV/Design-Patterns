@@ -1,10 +1,9 @@
 ﻿using static System.Console;
 
-public class FileLogger : Logger
+public class FileLogger : AbstractLogger
 {
     public void Log(string message) {
         OpenFile();
-        LogMessage(message);
         CloseFile();
     }
 

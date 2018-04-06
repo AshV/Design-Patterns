@@ -1,10 +1,9 @@
 ﻿using static System.Console;
 
-public class EmailLogger : Logger
+public class EmailLogger : AbstractLogger
 {
     public void Log(string message) {
         ConnectToMailServer();
-        LogMessage(message);
     }
 
     private void ConnectToMailServer() {

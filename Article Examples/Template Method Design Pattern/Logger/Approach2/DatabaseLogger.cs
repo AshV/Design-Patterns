@@ -1,10 +1,9 @@
 ﻿using static System.Console;
 
-public class DatabaseLogger : Logger
+public class DatabaseLogger : AbstractLogger
 {
     public void Log(string message) {
         ConnectToDatabase();
-        LogMessage(message);
         CloseDbConnection();
     }
 
