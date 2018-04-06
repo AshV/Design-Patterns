@@ -1,12 +1,19 @@
 ﻿using static System.Console;
 
-public class EmailLogger : Logger
+public class EmailLogger : AbstractLogger
 {
-    protected override void CloseConnection() {
-        WriteLine("Dummy Close");
+
+    protected override void OpenDataStoreOperation()
+    {
+        WriteLine("Connecting to mail server and logging in");
     }
 
-    protected override void OpenConnection() {
-        WriteLine("Connecting to mail server and logging in");
+    protected override void LogMessage(string messageToLog)
+    {
+        WriteLine("Sending Email with Log Message : " + messageToLog);
+    }
+    protected override void CloseDataStoreOpreation()
+    {
+        WriteLine("Dummy close");
     }
 }

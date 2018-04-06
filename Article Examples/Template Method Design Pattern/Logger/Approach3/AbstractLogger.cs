@@ -1,17 +1,24 @@
 ﻿using static System.Console;
 
-public abstract class Logger
+public abstract class AbstractLogger
 {
-    protected void LogMessage(string message) {
-        WriteLine(message);
+    protected string SerializeMessage(object message)
+    {
+        WriteLine("Serializing message");
+        return message.ToString();
     }
 
-    protected abstract void OpenConnection();
-    protected abstract void CloseConnection();
+    protected abstract void OpenDataStoreOperation();
 
-    public void Log(string message) {
-        OpenConnection();
-        LogMessage(message);
-        CloseConnection();
+    protected abstract void LogMessage(string messageToLog);
+
+    protected abstract void CloseDataStoreOpreation();
+
+    public void Log(object message)
+    {
+        string messageToLog = SerializeMessage(message);
+        OpenDataStoreOperation();
+        LogMessage(messageToLog);
+        CloseDataStoreOpreation();
     }
 }
