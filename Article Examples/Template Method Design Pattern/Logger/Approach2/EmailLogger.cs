@@ -7,6 +7,7 @@ public class EmailLogger : AbstractLogger
         string messageToLog = SerializeMessage(message);
         ConnectToMailServer();
         SendLogToEmail(messageToLog);
+        DisposeConnection();
     }
 
     private void ConnectToMailServer()
@@ -17,5 +18,10 @@ public class EmailLogger : AbstractLogger
     private void SendLogToEmail(string message)
     {
         WriteLine("Sending Email with Log Message : " + message);
+    }
+
+    private void DisposeConnection()
+    {
+        WriteLine("Dispose Connection");
     }
 }

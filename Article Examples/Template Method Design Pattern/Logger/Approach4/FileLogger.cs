@@ -1,20 +1,19 @@
 ﻿using static System.Console;
 
-public class EmailLogger : AbstractLogger
+public class FileLogger : AbstractLogger
 {
-
     protected override void OpenDataStoreOperation()
     {
-        WriteLine("Connecting to mail server and logging in");
+        WriteLine("Opening File.");
     }
 
     protected override void LogMessage(string messageToLog)
     {
-        WriteLine("Sending Email with Log Message : " + messageToLog);
+        WriteLine("Appending Log message to file : " + messageToLog);
     }
 
     protected override void CloseDataStoreOpreation()
     {
-        WriteLine("Dispose Connection");
+        WriteLine("Close File.");
     }
 }
