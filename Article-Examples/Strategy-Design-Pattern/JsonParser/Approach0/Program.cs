@@ -1,7 +1,8 @@
 ﻿class Program {
     static void Main(string[] args) {
-        var pasredData = new JsonParser().Parse(
+        var parsedData = new JsonParser(
             "sensor",
-            "{ 'temp' : '38' }");
+            "{ 'temp' : '38' }")
+            .Parse();
     }
 }
