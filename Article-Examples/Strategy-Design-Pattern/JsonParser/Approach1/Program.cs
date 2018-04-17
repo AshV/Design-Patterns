@@ -1,9 +1,7 @@
 ﻿using static System.Console;
 
-class Program
-{
-    static void Main(string[] args)
-    {
+class Program {
+    static void Main(string[] args) {
         var parsedData = new JsonParser(
           "sensor",
           "{ 'temp' : '38' }")
