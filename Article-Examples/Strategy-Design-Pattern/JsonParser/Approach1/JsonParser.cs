@@ -2,11 +2,9 @@
 using static System.Console;
 
 class JsonParser {
-    private string Source { get; set; }
-    private string JsonData { get; set; }
+    public string JsonData { get; set; }
 
-    public JsonParser(string source, string jsonData) {
-        Source = source;
+    public JsonParser( string jsonData) {
         JsonData = jsonData;
     }
 
@@ -23,8 +21,8 @@ class JsonParser {
     }
 
 
-    public object Parse() {
-        switch (Source) {
+    public object Parse(string source) {
+        switch (source) {
             case "sensor":
                 return ParseSensorData();
             case "blog":

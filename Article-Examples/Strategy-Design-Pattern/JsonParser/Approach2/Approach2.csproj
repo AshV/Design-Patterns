@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4D69C01-C3FD-4EAB-AA8E-65298E00F292}</ProjectGuid>
+    <ProjectGuid>{09C52824-9097-4658-8710-DD7C390B1819}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Approach0</RootNamespace>
-    <AssemblyName>Approach0</AssemblyName>
+    <RootNamespace>Approach2</RootNamespace>
+    <AssemblyName>Approach2</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlogDataParser.cs" />
     <Compile Include="JsonParser.cs" />
     <Compile Include="MainClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SensorDataParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

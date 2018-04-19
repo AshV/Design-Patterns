@@ -1,16 +1,16 @@
 ﻿using static System.Console;
 
-class JsonParser {
-    private string Source { get; set; }
+class JsonParser
+{
+    public string JsonData { get; set; }
 
-    private string JsonData { get; set; }
-
-    public JsonParser(string source, string jsonData) {
-        Source = source;
+    public JsonParser(string jsonData)
+    {
         JsonData = jsonData;
     }
 
-    public object Parse() {
+    public object Parse()
+    {
         WriteLine("Parsing Json Data");
         // Parsing Logic
         return new { ParsedData = JsonData };
