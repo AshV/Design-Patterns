@@ -2,7 +2,7 @@
 using static System.Console;
 
 class JsonParser {
-    public string JsonData { get; set; }
+    private string JsonData { get; set; }
 
     public JsonParser( string jsonData) {
         JsonData = jsonData;

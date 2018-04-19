@@ -1,7 +1,5 @@
-﻿class MainClass
-{
-    static void Main(string[] args)
-    {
+﻿class MainClass {
+    static void Main(string[] args) {
         JsonParser jsonParser = new SensorDataParser(
             "{ 'temp' : '38' }");
         var parsedData = jsonParser.Parse();

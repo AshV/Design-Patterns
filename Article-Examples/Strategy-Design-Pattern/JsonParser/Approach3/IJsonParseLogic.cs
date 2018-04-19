@@ -1,4 +1,3 @@
-﻿interface IJsonParseLogic
-{
+﻿interface IJsonParseLogic {
     object Parse(string jsonData);
 }

@@ -1,16 +1,12 @@
-﻿class JsonParser
-{
+﻿class JsonParser {
     public IJsonParseLogic JsonParseLogic { get; set; }
-
     private string JsonData { get; set; }
 
-    public JsonParser(string jsonData)
-    {
+    public JsonParser(string jsonData) {
         JsonData = jsonData;
     }
 
-    public object Parse()
-    {
+    public object Parse() {
         return JsonParseLogic.Parse(JsonData);
     }
 }

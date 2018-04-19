@@ -1,9 +1,7 @@
-﻿public abstract class JsonParser
-{
+﻿public abstract class JsonParser {
     public string JsonData;
 
-    public JsonParser(string jsonData)
-    {
+    public JsonParser(string jsonData) {
         JsonData = jsonData;
     }
 
