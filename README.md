@@ -1,2 +1,1 @@
-# Design-Patterns
-Problem solving with patterns
+# Design Patterns by Example
